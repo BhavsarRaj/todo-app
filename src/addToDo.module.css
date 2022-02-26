@@ -1,0 +1,24 @@
+.add {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.button {
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 1%;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  color: aqua;
+}
+
+.button:hover {
+  background-color: aqua;
+  color: rebeccapurple;
+  box-shadow: 2px 2px 2px 3px;
+}

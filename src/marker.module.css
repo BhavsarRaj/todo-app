@@ -1,0 +1,21 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 2px solid aqua;
+  width: 30%;
+  border-radius: 5px;
+  margin-left: 1%;
+  color: rebeccapurple;
+}
+
+.gridItem {
+  border: 1px solid aqua;
+}
+
+.paddingLeft {
+  padding-left: 1%;
+}
+
+.gridContainer:hover {
+  box-shadow: 2px 2px 2px 2px;
+}

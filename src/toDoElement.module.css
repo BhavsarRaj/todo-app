@@ -1,0 +1,35 @@
+.card {
+  background-color: aqua;
+  color: rebeccapurple;
+  padding: 1%;
+  border-radius: 2px;
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+.card:hover {
+  box-shadow: 2px 3px 5px 2px;
+}
+
+.check {
+  text-align: center;
+  display: inline-block;
+  color: green;
+  width: 3%;
+}
+
+.delete {
+  text-align: center;
+  display: inline-block;
+  color: red;
+  width: 3%;
+  margin-left: 1%;
+}
+
+.check:hover,
+.delete:hover {
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-color: cyan;
+  cursor: pointer;
+}
